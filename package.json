@@ -26,7 +26,13 @@
     "typescript": "^5.9.3",
     "vite": "^8.0.0"
   },
-  "overrides": {
-    "minimatch": ">=9.0.7"
+  "pnpm": {
+    "overrides": {
+      "minimatch": ">=9.0.7",
+      "picomatch": ">=4.0.4",
+      "brace-expansion": ">=2.0.3",
+      "vite": ">=8.0.5",
+      "flatted": ">=3.4.2"
+    }
   }
 }
